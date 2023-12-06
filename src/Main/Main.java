@@ -18,7 +18,6 @@ public class Main {
 	public static void main(String[] args) {
 		System.out.println("Starting bfs to solve 8-puzzle");
                 
-                
 		//long start = System.currentTimeMillis();
 		LocalDateTime startTime = LocalDateTime.now();
 		BFS bfs = new BFS("0","2","5","3","4","1","6","7","8");
