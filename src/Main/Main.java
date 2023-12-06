@@ -53,8 +53,7 @@ public class Main {
 		    ROUNDED_DOUBLE_DECIMALFORMAT = new DecimalFormat("####0.00", otherSymbols);
 		    ROUNDED_DOUBLE_DECIMALFORMAT.setGroupingUsed(false);
 		    double totalMiB = bytesToMiB(getUsedMemory());
-		    System.out.println(String.format("Max memory usage: %s Megabytes", totalMiB)); ;
-			
+		    System.out.println(String.format("Max memory usage: %s Megabytes", totalMiB));
 		}
 		else
 		{
