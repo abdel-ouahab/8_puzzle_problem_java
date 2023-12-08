@@ -46,8 +46,6 @@ public class Main {
 				System.out.println("running time:  "+ seconds+" SECONDS");
 			}
 		}
-		
-
 	}
 	public static long getTotalMemory() {
 	    return Runtime.getRuntime().totalMemory();
