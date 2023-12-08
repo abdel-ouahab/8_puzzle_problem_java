@@ -45,19 +45,6 @@ public class Main {
 			{
 				System.out.println("running time:  "+ seconds+" SECONDS");
 			}
-			final long MEGABYTE_FACTOR = 1024L * 1024L;
-			final DecimalFormat ROUNDED_DOUBLE_DECIMALFORMAT;
-			DecimalFormatSymbols otherSymbols = new DecimalFormatSymbols(Locale.ENGLISH);
-		    otherSymbols.setDecimalSeparator('.');
-		    otherSymbols.setGroupingSeparator(',');
-		    ROUNDED_DOUBLE_DECIMALFORMAT = new DecimalFormat("####0.00", otherSymbols);
-		    ROUNDED_DOUBLE_DECIMALFORMAT.setGroupingUsed(false);
-		    double totalMiB = bytesToMiB(getUsedMemory());
-		    System.out.println(String.format("Max memory usage: %s Megabytes", totalMiB));
-		}
-		else
-		{
-			System.err.println("no solution found!");
 		}
 		
 
